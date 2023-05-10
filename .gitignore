@@ -1,6 +1,6 @@
 venv
 .env
-
+kasha_vareniie.py
 .idea
 .vscode
 __pycache__/
