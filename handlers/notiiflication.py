@@ -1,5 +1,6 @@
 # from apscheduler.schedulers.asyncio import AsyncIOScheduler
-# scheduler = AsyncIOScheduler() в конфиг
+# scheduler = AsyncIOScheduler()
+# config.py
 
 from config import bot, #scheduler
 from aiogram.types import Message
@@ -8,6 +9,7 @@ from aiogram.types import Message
 # from handlers.notiflication import handle_scheduler
 # scheduler.start()
 # dp.register_message_handler(handle_scheduler, commands=['sche'])
+# main.py
 
 async def handle_scheduler(message:Message):
     scheduler.add_job(
