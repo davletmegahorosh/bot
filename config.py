@@ -2,6 +2,7 @@ from aiogram import Bot, Dispatcher
 from decouple import config
 from aiogram.contrib.fsm_storage.memory import MemoryStorage
 
+ADMINS = [126439Б34710934]
 
 storage = MemoryStorage()
 

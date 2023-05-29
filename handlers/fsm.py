@@ -16,7 +16,6 @@ async def fsm_start(message: types.Message):
     if message.chat.type == 'private':
         await FSMadmin.name.set()
         await message.answer('Что хотите заказать?', reply_markup=client_kb.start_markup)
-
     else:
         await message.answer('в группах не работает !!! Мой хозяин умный!!!')
 
